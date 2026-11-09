@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -n "Enter the SMB Server Address (e.g. 10.10.10.1/custom/path): "
+echo -n "Enter the SMB Server Address (e.g. 192.168.1.1/custom/path): "
 read -r smb_address
 echo -n "Enter username: "
 read -r usernmae
