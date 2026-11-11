@@ -1,7 +1,5 @@
-#QEMU Guest Agent Install:
-
+#!/bin/bash
 #Enable QEMU Guest Agent in ProxMox VM under options.
-#Run these commands in the VM:
 
 apt install qemu-guest-agent
 systemctl enable qemu-guest-agent
